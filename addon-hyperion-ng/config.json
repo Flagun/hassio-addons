@@ -36,18 +36,10 @@
   "schema": {},
   "privileged": [
     "SYS_ADMIN",
-    "SYS_RAWIO"
+    "SYS_RAWIO",
+    "SYS_RESOURCE"
   ],
-  "uart": true,
-  "usb": true,
-  "video": true,
-  "gpio": true,
-  "devices": [
-    "/dev/spidev0.0",
-    "/dev/vchiq",
-    "/dev/amvideo",
-    "/dev/fb0",
-    "/dev/mem"
-  ],
+  "full_access": true,
+
   "webui": "http://[HOST]:[PORT:8090]"
 }
